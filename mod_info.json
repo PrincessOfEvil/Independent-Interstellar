@@ -1,0 +1,15 @@
+{
+    "id":"independent_interstellar",
+    "name":"Independent Interstellar",
+    "author":"Princess of Evil",
+    "version":{
+        "major":0, 
+        "minor":1, 
+        "patch":"0"
+    },
+    "description":"Pirate ships fixed by actual engineers.",
+    "gameVersion":"0.95.1a-RC6",
+    "totalConversion":false,
+    "dependencies": [
+    ]
+}
