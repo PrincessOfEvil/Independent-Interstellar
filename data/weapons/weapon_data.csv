@@ -1,0 +1,15 @@
+name,id,tier,rarity,base value,range,damage/second,damage/shot,emp,impact,turn rate,OPs,ammo,ammo/sec,reload size,type,energy/shot,energy/second,chargeup,chargedown,burst size,burst delay,min spread,max spread,spread/shot,spread decay/sec,beam speed,proj speed,launch speed,flight time,proj hitpoints,autofireAccBonus,extraArcForAI,hints,tags,groupTag,tech/manufacturer,for weapon tooltip>>,primaryRoleStr,speedStr,trackingStr,turnRateStr,accuracyStr,customPrimary,customPrimaryHL,customAncillary,customAncillaryHL,noDPSInTooltip,number
+Devastator Cannon (Prox),II_prox_devastator,1,,3500,900,,150,,40,12,23,,,,HIGH_EXPLOSIVE,85,,0,2,12,0.1,5,30,5,5,,700,,,100,,,"PD,PD_ALSO,USE_LESS_VS_SHIELDS","he16, pd17, merc, ind",,,,Anti Fighter (Area),,,,,"Minor defects in the proximity fuse are fixed, resulting in a barrage that is equally powerful at maximum range.
+
+Will target missiles if no other targets are in range.",,,,,7.4
+Devastator Cannon (Burst),II_burst_devastator,1,,3500,900,,150,,40,12,23,12,3.75,3,HIGH_EXPLOSIVE,85,,0.05,0.05,3,0.1,5,30,5,5,,700,,,100,,,"PD,PD_ALSO,USE_LESS_VS_SHIELDS","he16, pd17, merc, ind",,,,Anti Fighter (Area),,,,,"Each shell has a fuse set to explode at a random distance, resulting in a barrage that's increasingly more deadly at closer ranges.
+The weapon's firing mechanism is modified, allowing it to fire in shorter bursts.
+
+Will target missiles if no other targets are in range.",,,,,7.4
+"Devastator Cannon (Prox, Burst)",II_burst_prox_devastator,1,,3500,900,,150,,40,12,25,12,3.75,3,HIGH_EXPLOSIVE,95,,0.05,0.05,3,0.1,5,30,5,5,,700,,,100,,,"PD,PD_ALSO,USE_LESS_VS_SHIELDS","he16, pd17, merc, ind",,,,Anti Fighter (Area),,,,,"Minor defects in the proximity fuse are fixed, resulting in a barrage that is equally powerful at maximum range.
+The weapon's firing mechanism is modified, allowing it to fire in shorter bursts.
+
+Will target missiles if no other targets are in range.",,,,,7.4
+Hellbore Cannon (Prox),II_prox_hellbore,0,,3000,900,,750,,200,5,18,,,,HIGH_EXPLOSIVE,850,,0,3,1,,0,10,5,10,,500,,,400,,,PD_ALSO,"he18, merc, ind",,,,Anti Armor (Area),,,,,,,,,,8
+Hephaestus Assault Gun (Breach),II_breach_hephag,1,,4000,900,,80,,5,20,20,,,,HIGH_EXPLOSIVE,130,,0,0.25,1,,0,5,1,5,,800,,,50,,,,"he18, merc, ind",,,,Anti Armor,,,,,Each projectile deals an additional %s damage to armor. This damage is not reduced by armor.,40,,,,7
+Plasma Cannon (Single),II_single_plasma,3,,7500,700,,500,,,20,30,,,,ENERGY,550,,0.33,0.333,1,,,,,,,750,,,500,,,"STRIKE, USE_VS_FRIGATES","energy20, rare_bp, hist1t, merc, ind",,,,General,,,,,,,,,,23

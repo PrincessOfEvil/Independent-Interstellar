@@ -1,0 +1,42 @@
+id,type,text1,text2,text3,text4,notes
+II_single_plasma,WEAPON,"A large, arcane weapon that's one of the most devastating sustained damage-dealers in the Sector, provided the ship it's mounted on can handle the flux it generates. Modified to fire its three capacitors one at a time like a revolver, instead of all at once.
+
+Plasma cannons are related to graviton and phase beams, in that they use poorly-documented properties of brane physics to deliver their payloads. A plasma cannon shell is a microfusion bomb which uses gravitic and baryonic lens to focus its energy inward. The resulting explosion creates plasma which is contained by a temporary mini-universe anomaly, while magnetic drivers mounted on the forward pylons accelerate it toward the target. The containment field lasts only a couple seconds, which is usually long enough for the anomaly to reach a target. If the convex hull of the field is not breached by ordinary matter/energy delivering at least 9 kN, the higher brane will absorb the destructive plasma, and it will vanish from our dimension forever. ",,,,
+II_breach_hephag,WEAPON,"A medium-range gun designed to punch through heavy armor. Modified with liquid-metal rounds that can crack armor otherwise unassailable for the caliber, though the streams tend to reflect off shields.
+
+A truly devastating weapon platform, named for an ancient Earth god associated with volcanoes. A typical turret mount features two L/89 barrels that trade off firing armor-destroying rounds at a high rate of fire. An electromagnetic ejector, powered feed system, and nanocoolants allow the weapon to fire for extended time periods. The shaped charge shells have low muzzle velocity and great armor penetrating power. ",,,,
+II_prox_hellbore,WEAPON,"A perfectly normal Hellbore cannon, with its perfectly adequate Hellbore shells replaced with a high-explosive abomination producing Reaper-sized explosions on a proximity fuse.
+
+A feared weapon platform, rarely deployed due to the complexity involved in manufacturing a built-up barrel that can safely fire enormous high-explosive shaped charge rounds. When such a shell impacts a target, the Neumann effect causes the warhead to propel a jet of molten metal into the target's armor, vaporizing a small area, causing hull breaches, depressurization, and extensive internal damage from the spall.",,,,
+II_prox_devastator,WEAPON,"Essentially a rapid-fire capital-sized flak cannon, the Devastator was developed by the Domain Armada using generic parts in response to a rebellious world which managed to acquire an extensive set of fighter LPCs.
+
+Three barrels launch a rapid barrage of explosive projectiles. The ammo microforges are modified for ammo quality without sacrificing assembly time, and the projectiles are additionally shielded against shockwaves, resulting in much more reliable fuses than the standard variant.
+
+A single salvo from the Devastator can eliminate a fighter wing or flight of missiles, though the shells are of only limited use against larger targets.",,,,
+II_burst_devastator,WEAPON,"Essentially a rapid-fire capital-sized flak cannon, the Devastator was developed by the Domain Armada using generic parts in response to a rebellious world which managed to acquire an extensive set of fighter LPCs.
+
+Three barrels launch a rapid barrage of explosive projectiles. The rapid rate of fire produces such a volume of munitions that the proximity detectors become somewhat unreliable, setting themselves off at seemingly random range. The margin of error was deemed acceptable after spectacular field results.
+
+A single salvo from the Devastator can eliminate a fighter wing or flight of missiles, though the shells are of only limited use against larger or more distant targets.",,,,
+II_burst_prox_devastator,WEAPON,"Essentially a rapid-fire capital-sized flak cannon, the Devastator was developed by the Domain Armada using generic parts in response to a rebellious world which managed to acquire an extensive set of fighter LPCs.
+
+Three barrels launch a rapid barrage of explosive projectiles. The ammo microforges are modified for ammo quality without sacrificing assembly time, and the projectiles are additionally shielded against shockwaves, resulting in much more reliable fuses than the standard variant.
+
+A single salvo from the Devastator can eliminate a fighter wing or flight of missiles, though the shells are of only limited use against larger targets.",,,,
+II_mudskipper2,SHIP,"Heavy modifications have been made to the basic civilian hull. While the designers clearly didn't have expensive components on hand, the ship is nevertheless combat-capable and modified by genuine engineers, with internal and external strengthening of the hull, welded-on armor plating, a crude, but effective military reactor, and even space for additional modifications - at the cost of all of its civilian usability.
+
+Most commonly used as interplanetary ferry, the Mudskipper is indeed interstellar-capable. The ship has no built-in shield generator so must rely on its durable - for a civilian craft - armour to protect passengers and cargo. There is little hope for the Mudskipper in combat, but it is generally equipped with a rear-facing turret to foil attacks by the ever-popular Salamander missile.
+
+The MGA-220 was first produced as the ""Pegasus""-class but was soon anointed with the altogether more humble name ""Mudskipper"". This tough little ship has been a mainstay in backwater civilian transport for centuries, and although not pretty, the rugged construction simplifies maintenance and generous bay doors allow for great versatility. To this point, the Mudskipper's image in the public mind was cemented by a somewhat unlikely holovid sequence featuring a Mudskipper transporting a herd of bovids to a picturesque arid-terraform.",,,,
+
+II_colossus3,SHIP,"Heavy modifications have been made to the basic civilian hull. While the designers clearly didn't have expensive components on hand, the ship is nevertheless combat-capable and modified by genuine engineers, with internal and external strengthening of the hull, welded-on armor plating, a crude, but effective military reactor, and even space for additional modifications - at the cost of all of its civilian usability.
+
+The Colossus was first adapted for war by Pather militants, and enterprising pirates soon followed their lead. A similarly haphazard process sees most cargo decks collapsed and re-welded to form thick armour dotted with numerous weapons emplacements. The primary cargo bay was left open, however, and converted into an ersatz fighter launch bay with the addition of a micro civilian forge-vat intended for the manufacture of machine parts hacked to accept fighter LPC chips. The forge is poorly integrated with the hull's base power system, resulting in unreliable overall performance. However, sometimes these Colossii are recovered by bounty hunters, and reforged with proper tools into a genuine terror for their shoddier pirate brethren.
+
+The Colossus heavy freighter formed the core of Domain frontier supply fleets before it was outmatched by the brutal economic efficiency of the Atlas superfreighter. Thicker than strictly necessary hull plating provides protection against cosmic hazards both natural and human.",,,,
+
+II_atlas2,SHIP,"Heavy modifications have been made to the basic civilian hull. While the designers clearly didn't have expensive components on hand, the ship is nevertheless combat-capable and modified by genuine engineers, with internal and external strengthening of the hull, welded-on armor plating, a crude, but effective military reactor, and even space for additional modifications - at the cost of all of its civilian usability.
+
+The Atlas-class superfreighter is a prime target of pirate attacks. A few are later found at the broken heart of a sharp spray of impact debris in some lonely orbit. They are sometimes found by independent explorers and hauled off to secret shipyards. Cargo holds are ripped apart, replaced with trusses to hold weapons mounts and souped-up ammo feed lines.
+
+This Atlas, reborn in vaccuum and fire, now delivers a cargo of death to any pirate warlord unlucky enough to mix it up with a normal freighter.",,,,
