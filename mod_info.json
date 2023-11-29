@@ -4,8 +4,8 @@
     "author":"Princess of Evil",
     "version":{
         "major":0, 
-        "minor":2, 
-        "patch":"0"
+        "minor":3, 
+        "patch":"1"
     },
     "description":"Pirate ships fixed by actual engineers, and ''what-if'' variants of common weapons.",
     "gameVersion":"0.96a-RC6",
