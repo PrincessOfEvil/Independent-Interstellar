@@ -1,0 +1,18 @@
+{
+    "displayName": "Ranged",
+    "fluxCapacitors": 0,
+    "fluxVents": 10,
+    "goalVariant": false,
+    "hullId": "II_mudskipper2",
+    "hullMods": [],
+    "variantId": "II_mudskipper2_ranged",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 002": "gauss"
+            }
+        }
+    ]
+}

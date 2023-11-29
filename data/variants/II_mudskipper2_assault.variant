@@ -1,0 +1,18 @@
+{
+    "displayName": "Assault",
+    "fluxCapacitors": 7,
+    "fluxVents": 10,
+    "goalVariant": false,
+    "hullId": "II_mudskipper2",
+    "hullMods": [],
+    "variantId": "II_mudskipper2_assault",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 002": "mark9"
+            }
+        }
+    ]
+}

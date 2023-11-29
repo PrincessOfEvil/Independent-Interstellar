@@ -1,0 +1,9 @@
+{
+	"knownShips":{
+		"hulls":[
+			"II_mudskipper2",
+			"II_colossus3",
+			"II_atlas2"
+        ]
+    }
+}

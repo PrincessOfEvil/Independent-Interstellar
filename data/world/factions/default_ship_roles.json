@@ -1,0 +1,18 @@
+{
+	"combatCapital":{
+        "II_atlas2_assault":2
+	},
+	
+	"carrierMedium":{
+        "II_colossus3_bomber":2,
+        "II_colossus3_assault":2
+	},
+	
+	"combatSmall":{
+        "II_mudskipper2_ranged":2,
+        "II_mudskipper2_assault":2
+	},
+	"combatSmallForSmallFleet":{
+        "II_mudskipper2_assault":2
+	}
+}
