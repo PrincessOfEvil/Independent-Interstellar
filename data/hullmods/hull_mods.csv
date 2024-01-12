@@ -1,0 +1,2 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sModDesc,sprite
+High Spectral Amplifier,high_spectral_amp,3,,,"offensive, merc, standard",Weapons,5000,TRUE,,,4,8,12,20,data.hullmods.princessscripts.HighSpectralAmp,<tooltip created in the script due to sections>,Reduces beam range; beams deal more damage and apply hard flux to shields.,Increases beam weapon damage by an additional %s.,graphics/hullmods/high_scatter_amp.png
