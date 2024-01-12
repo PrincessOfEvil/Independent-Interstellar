@@ -1,2 +1,5 @@
 name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sModDesc,sprite
 High Spectral Amplifier,high_spectral_amp,3,,,"offensive, merc, standard",Weapons,5000,TRUE,,,4,8,12,20,data.hullmods.princessscripts.HighSpectralAmp,<tooltip created in the script due to sections>,Reduces beam range; beams deal more damage and apply hard flux to shields.,Increases beam weapon damage by an additional %s.,graphics/hullmods/high_scatter_amp.png
+Auxiliary Ablative Armor,aux_ablative_armor,3,,,"defensive, merc, standard",Defenses,5000,TRUE,,,8,15,20,40,data.hullmods.princessscripts.AuxAblativeArmor,"Technically a complete and utter downgrade, this replaces normal ""spaced"" armor on the ship with ablative ferroceramic bricks seen on ancient dreadnoughts.
+
+Increases armor value by %s. The effective armor strength for the damage reduction calculation is unchanged.",Reduces damage reduction by armor.,,graphics/hullmods/ablative_armor.png
