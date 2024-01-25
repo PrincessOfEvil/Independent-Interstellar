@@ -3,3 +3,9 @@ High Spectral Amplifier,high_spectral_amp,3,,,"offensive, merc, standard",Weapon
 Auxiliary Ablative Armor,aux_ablative_armor,3,,,"defensive, merc, standard",Defenses,5000,TRUE,,,8,15,20,40,data.hullmods.princessscripts.AuxAblativeArmor,"Technically a complete and utter downgrade, this replaces normal ""spaced"" armor on the ship with ablative ferroceramic bricks seen on ancient dreadnoughts.
 
 Increases armor value by %s. The effective armor strength for the damage reduction calculation is unchanged.",Reduces damage reduction by armor.,,graphics/hullmods/ablative_armor.png
+Rapid Phase Coils,ii_rapidphasecoils,2,,,"special, phase, merc, standard",Phase,5000,,TRUE,,15,30,45,70,data.hullmods.princessscripts.RapidPhaseCoils,"Fine-tuned overrides of multiple phase coil safeties allow phase temporal effects to accelerate exhaust plumes beyond the normal effects.
+
+Increases speed while phased by %s. Phase slipping due to high flux is completely removed. Increases phase flux by %s.
+
+All crew, including officer staff and AI cores, is required to put on phase-shielded suits while phase coils are in use. No punishment for breaking this rule is required.","Massively increases speed while phased, at the cost of flux.",graphics/hullmods/augmented_drive_field.png
+,,,,,,,,,,,,,,,,,,
