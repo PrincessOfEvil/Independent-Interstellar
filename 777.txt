@@ -1,0 +1,6 @@
+Let's count. Battle skills only.
+Low tech gets:
+Impact Mitigation (if you take armor damage as HT, that's on you), Damage Control (see above), Ballistic Mastery, Gunnery Implants (just look at the list of ballistic weapons with recoil issues, it's pretty large), Polarized Armor.
+High tech gets:
+Field Modulation (elite effect favors HT), Energy Weapon Mastery, Flux Regulation (very technically; +10% is slightly more for bigger HT base flux).
+The rest favor both equally.

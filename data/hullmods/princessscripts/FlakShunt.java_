@@ -1,0 +1,56 @@
+package com.fs.starfarer.api.impl.hullmods;
+
+import com.fs.starfarer.api.combat.BaseHullMod;
+import com.fs.starfarer.api.combat.MutableShipStatsAPI;
+import com.fs.starfarer.api.combat.ShieldAPI;
+import com.fs.starfarer.api.combat.ShipAPI;
+
+public class FlakShunt extends BaseHullMod {
+  public static float ARMOR_BONUS = 15.0F;
+  
+  public static float SMOD_ARMOR_BONUS = 15.0F;
+  
+  public void applyEffectsBeforeShipCreation(ShipAPI.HullSize hullSize, MutableShipStatsAPI stats, String id) {
+    boolean sMod = isSMod(stats);
+    stats.getArmorBonus().modifyPercent(id, ARMOR_BONUS + (sMod ? SMOD_ARMOR_BONUS : 0.0F));
+  }
+  
+  public void applyEffectsAfterShipCreation(ShipAPI ship, String id) {
+    ship.setShield(ShieldAPI.ShieldType.NONE, 0.0F, 1.0F, 1.0F);
+  }
+  
+  public String getDescriptionParam(int index, ShipAPI.HullSize hullSize) {
+    if (index == 0)
+      return (int)ARMOR_BONUS + "%"; 
+    return null;
+  }
+  
+  public boolean isApplicableToShip(ShipAPI ship) {
+    if (ship.getVariant().getHullSpec().getShieldType() == ShieldAPI.ShieldType.NONE && 
+      !ship.getVariant().hasHullMod("frontshield"))
+      return false; 
+    if (ship.getVariant().hasHullMod("shield_shunt"))
+      return false; 
+    if (ship.getVariant().hasHullMod("frontshield"))
+      return false; 
+    return (ship != null && ship.getShield() != null);
+  }
+  
+  public String getUnapplicableReason(ShipAPI ship) {
+    if (ship.getVariant().hasHullMod("frontshield"))
+      return "Incompatible with Makeshift Shield Generator"; 
+    if (ship.getVariant().hasHullMod("shield_shunt"))
+      return "Ship already had its shield shunted"; 
+    return "Ship has no shields";
+  }
+  
+  public String getSModDescriptionParam(int index, ShipAPI.HullSize hullSize) {
+    if (index == 0)
+      return (int)SMOD_ARMOR_BONUS + "%"; 
+    return null;
+  }
+  
+  public boolean hasSModEffect() {
+    return true;
+  }
+}

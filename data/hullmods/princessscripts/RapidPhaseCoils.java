@@ -6,6 +6,7 @@ import com.fs.starfarer.api.combat.ShipAPI;
 import com.fs.starfarer.api.combat.ShipAPI.HullSize;
 import com.fs.starfarer.api.impl.campaign.ids.Stats;
 import com.fs.starfarer.api.impl.hullmods.CompromisedStructure;
+import com.fs.starfarer.api.impl.campaign.ids.HullMods;
 
 public class RapidPhaseCoils extends BaseHullMod {
 	private static final float PHASE_BONUS_MULT = 5f;
@@ -28,4 +29,26 @@ public class RapidPhaseCoils extends BaseHullMod {
 		return null;
 	}
 
+	@Override
+	public boolean isApplicableToShip(ShipAPI ship) {
+		if (ship.getVariant().getHullSize() == HullSize.FRIGATE) return false;
+		if (ship.getVariant().getHullSize() == HullSize.DESTROYER) return false;
+		if (ship.getVariant().hasHullMod(HullMods.CIVGRADE) && !ship.getVariant().hasHullMod(HullMods.MILITARIZED_SUBSYSTEMS)) return false;
+		
+		return true;
+	}
+	
+	public String getUnapplicableReason(ShipAPI ship) {
+		if (ship.getVariant().getHullSize() == HullSize.FRIGATE) {
+			return "Can not be installed on small ships";
+		}
+		if (ship.getVariant().getHullSize() == HullSize.DESTROYER) {
+			return "Can not be installed on small ships";
+		}
+		if (ship.getVariant().hasHullMod(HullMods.CIVGRADE) && !ship.getVariant().hasHullMod(HullMods.MILITARIZED_SUBSYSTEMS)) {
+			return "Can not be installed on civilian ships";
+		}
+		
+		return null;
+	}
 }
