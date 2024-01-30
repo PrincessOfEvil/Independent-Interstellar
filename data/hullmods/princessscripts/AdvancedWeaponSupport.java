@@ -19,7 +19,7 @@ import org.lwjgl.util.vector.Vector2f;
 
 public class AdvancedWeaponSupport extends BaseHullMod {	
 
-	private static final float DAMAGE_MULT = 175f;
+	private static final float DAMAGE_MULT = 75f;
 	private static final int RANGE_MOD = 300;
 	
 	public void applyEffectsAfterShipCreation(ShipAPI ship, String id) {
