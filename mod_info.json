@@ -5,10 +5,10 @@
     "version":{
         "major":0, 
         "minor":4, 
-        "patch":"2"
+        "patch":"3"
     },
     "description":"Pirate ships fixed by actual engineers, and ''what-if'' variants of common weapons.",
-    "gameVersion":"0.96a-RC6",
+    "gameVersion":"0.97a-RC6",
     "totalConversion":false,
     "dependencies": [
     ]
