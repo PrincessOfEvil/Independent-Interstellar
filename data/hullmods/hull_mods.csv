@@ -11,4 +11,7 @@ All crew, including officer staff and AI cores, is required to put on phase-shie
 Advanced Weapon Support,ii_advancedweaponsupport,3,,,"offensive, merc, standard",Weapons,5000,TRUE,,,4,8,12,20,data.hullmods.princessscripts.AdvancedWeaponSupport,"Bigger slots have not only a bigger profile, but also support systems for larger weapons. Usually, only a small amount of these systems are used if a smaller weapon is installed, since it physically cannot use them all. But, with a reasonably small modification to the weapon, these systems can be used even on smaller weapons for a small power boost.
 
 Increases damage by %s. Increases base range by %s.","Increases damage and range for non-missile weapons installed in oversized slots. Base range is affected. Small.",,graphics/hullmods/ballistics_integration.png
+Jury-rigged Shield Generator,ii_frontshield,0,,,"shields, defensive, standard",Shields,4000,,,,5,10,15,25,data.hullmods.princessscripts.FrontShieldGenerator,"Installs a jury-rigged high-tech shield generator on the ship. The shield emitter is locked in a forward-facing position and has a %s degree arc.
+
+The shield generator runs on its own auxiliary generator; however, the high-efficiency nodes take much space, reducing effective armor by %s.",Installs basic shields on shieldless ship. Reduces armor.,,graphics/hullmods/front_shield_generator.png
 ,,,,,,,,,,,,,,,,,,
